@@ -60,3 +60,57 @@ Browserslist: caniuse-lite is outdated. Please run:
       at async PluginContainer.transform (file:///home/user/chirps-mini-v2/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
       at async loadAndTransform (file:///home/user/chirps-mini-v2/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
       at async viteTransformMiddleware (file:///home/user/chirps-mini-v2/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:61824:24)
+12:03:12 AM [vite] page reload vite.config.ts.timestamp-1777766592341-122419b15b6df.mjs
+12:03:13 AM [vite] Pre-transform error: Failed to resolve import "react-router-dom" from "src/App.tsx". Does the file exist?
+12:03:13 AM [vite] Internal server error: Failed to resolve import "react-router-dom" from "src/App.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/user/chirps-mini-v2/src/App.tsx:2:77
+  17 |  var _s = $RefreshSig$(), _s2 = $RefreshSig$(), _s3 = $RefreshSig$();
+  18 |  import { useState, useEffect, useRef } from "react";
+  19 |  import { BrowserRouter, Routes, Route, Link, useLocation } from "react-router-dom";
+     |                                                                   ^
+  20 |  import { motion, AnimatePresence } from "framer-motion";
+  21 |  import {
+      at TransformPluginContext._formatError (file:///home/user/chirps-mini-v2/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///home/user/chirps-mini-v2/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at normalizeUrl (file:///home/user/chirps-mini-v2/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63984:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/user/chirps-mini-v2/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:64116:39
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///home/user/chirps-mini-v2/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:64043:7)
+      at async PluginContainer.transform (file:///home/user/chirps-mini-v2/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///home/user/chirps-mini-v2/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+      at async viteTransformMiddleware (file:///home/user/chirps-mini-v2/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:61824:24)
+12:05:49 AM [vite] vite.config.ts changed, restarting server...
+12:05:49 AM [vite] page reload vite.config.ts.timestamp-1777766749293-345c77f07c3e8.mjs
+Re-optimizing dependencies because vite config has changed
+12:05:49 AM [vite] server restarted.
+Error: The following dependencies are imported but could not be resolved:
+
+  react-router-dom (imported by /home/user/chirps-mini-v2/src/App.tsx)
+  framer-motion (imported by /home/user/chirps-mini-v2/src/App.tsx)
+
+Are they installed?
+    at file:///home/user/chirps-mini-v2/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:50604:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///home/user/chirps-mini-v2/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:50109:26
+12:05:49 AM [vite] Pre-transform error: Failed to resolve import "react-router-dom" from "src/App.tsx". Does the file exist?
+12:05:50 AM [vite] Internal server error: Failed to resolve import "react-router-dom" from "src/App.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/user/chirps-mini-v2/src/App.tsx:2:77
+  17 |  var _s = $RefreshSig$(), _s2 = $RefreshSig$(), _s3 = $RefreshSig$();
+  18 |  import { useState, useEffect, useRef } from "react";
+  19 |  import { BrowserRouter, Routes, Route, Link, useLocation } from "react-router-dom";
+     |                                                                   ^
+  20 |  import { motion, AnimatePresence } from "framer-motion";
+  21 |  import {
+      at TransformPluginContext._formatError (file:///home/user/chirps-mini-v2/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///home/user/chirps-mini-v2/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at normalizeUrl (file:///home/user/chirps-mini-v2/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63984:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/user/chirps-mini-v2/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:64116:39
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///home/user/chirps-mini-v2/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:64043:7)
+      at async PluginContainer.transform (file:///home/user/chirps-mini-v2/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///home/user/chirps-mini-v2/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+      at async viteTransformMiddleware (file:///home/user/chirps-mini-v2/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:61824:24)
